@@ -23,7 +23,6 @@ fun MainScreen(
 
     onSalvar: (Reserva) -> Unit
 ) {
-    val reservas by viewModel.reservas.collectAsState()
 
     Column(
         modifier = Modifier

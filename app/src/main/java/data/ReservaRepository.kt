@@ -18,7 +18,5 @@ class ReservaRepository(private val reservaDao: ReservaDao) {
         reservaDao.deletarReserva(reserva)
     }
 
-    suspend fun buscarPorId(id: Int): Reserva? {
-        return reservaDao.getReservaPorId(id)
-    }
+
 }

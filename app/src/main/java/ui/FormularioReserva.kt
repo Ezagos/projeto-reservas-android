@@ -254,7 +254,6 @@ fun FormularioReserva(
                             reservaViewModel.atualizarReserva(reservaAtual)
                         } else {
                             reservaViewModel.adicionarReserva(reservaAtual)
-                            // Limpa os campos explicitamente após adicionar uma NOVA reserva
                             nomeCliente = ""
                             data = ""
                             horario = ""
